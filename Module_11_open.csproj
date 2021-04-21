@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove=".gitattributes" />
+    <None Remove=".gitignore" />
+    <None Remove="Settings.StyleCop" />
+    <None Remove="StyleCop.Cache" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Telegram.Bot" Version="15.7.1" />
   </ItemGroup>
 
